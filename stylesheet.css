@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background-image: url(../img/bg04.jpg);
+    font-family: 'Gibson', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif; 
+}
+
+.container .bgwhite{
+    width: 70%;
+}
+
+.bgwhite{
+    background-color: rgba(255, 255, 255, 0.92);
+    overflow: auto;
+    margin: 10px 0 ;
+    text-align: inherit;
+    border-radius: 1em;
+}
+
+.hea3{
+    float: left;
+    text-align: center;
+}
+
+.hea9{
+    float: right;
+    text-align: center;
+    padding: 0.9em;
+}
+
+.hea9 h1{
+    color: tan;
+    font-size: 4em;
+    text-shadow: 1px 1px 1px rgb(15, 15, 15);
+    font-weight: 900;
+}
+
+.hea9 p{
+    font-size: 1.1em ;
+    color: rgb(167, 144, 115);
+}
+
+.logo, img{
+    height: 8em;
+}
+
+.container .poems{
+    width: 70%;
+}
+
+.container.poems{
+    background-color: rgb(229 199 147 / 96%);
+}
+
+.poems{
+    overflow: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.poem-1{
+    float: left;
+}
+
+.poem-2{
+    float: right;
+    padding: inherit;
+}
+
+.poem-1, .poem-2{
+    text-shadow: 1px 1px rgb(219, 174, 89);
+    font-weight: 450;
+    font-size: 1.1em;
+    padding: 0.85em;
+    color: black;
+}
+
+.poem-1:first-letter, .poem-2:first-letter{
+    font-size:2em;
+    color: rgb(143, 86, 0);
+    font-weight: 700;}
+
+.foot{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+    font-size: 1.2em;
+}
+
+.container.foot{
+    width: 35%;
+
+}
+
+.container a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.container a:hover{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(132, 146, 7);
+    transition: color;
+    transition-duration: 500ms;
+}
+
+.btn{
+    margin-top: 1em;
+}
