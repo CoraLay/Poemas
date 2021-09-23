@@ -69,7 +69,6 @@ body{
 }
 
 .poem-1, .poem-2{
-    text-shadow: 1px 1px rgb(219, 174, 89);
     font-weight: 450;
     font-size: 1.1em;
     padding: 0.85em;
