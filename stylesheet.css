@@ -1,6 +1,6 @@
 ::selection {
-    background-color: black;
-    color: gold;
+    background-color: rgb(255, 255, 255);
+    color: rgb(219, 166, 19);
 }
 
 body{
@@ -83,7 +83,8 @@ body{
 .poem-1:first-letter, .poem-2:first-letter{
     font-size:2em;
     color: rgb(143, 86, 0);
-    font-weight: 700;}
+    font-weight: 700;
+}
 
 .foot{
     width: 60%;
