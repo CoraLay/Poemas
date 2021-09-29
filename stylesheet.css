@@ -80,6 +80,12 @@ body{
     color: black;
 }
 
+.first-line {
+    position: relative;
+    bottom: -0.5em;
+    left: -1em;
+}
+
 .poem-1:first-letter, .poem-2:first-letter{
     font-size:2em;
     color: rgb(143, 86, 0);
